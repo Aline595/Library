@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: #F0F0F7;
+}
+
+#teste {
+    width: 91%;
+    margin-top: 2%;
+}
+
+.btn{
+    margin-top: 2%;
+    color:white;
+    background-color: teal;
+}
+
+.image{
+    /*width: 50%;*/
+    display: inline-block;
+    margin-bottom: 15%;
+    position: relative;
+}
+
+.infos{
+    width: 50%;
+    display: inline-block;
+}
+
+.infos p{
+    font-size: small;
+}
+
+.logo-container{
+    font: 700 2.0rem Lexend Mega;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a{
+    width: 30rem;
+    height: 10.4rem;
+    border-radius: 0.8rem;
+    font: smaller;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+.button-container a button{
+    background-color: teal;
+}
+
+
+@media (max-width: 1091px){
+    .logo-container img{
+        height: 100%;
+        display: none;
+    }
+    .btn{
+        width: 100%;
+    }
+
+    #teste{
+        width: 100%;
+    }
+}

@@ -1,0 +1,78 @@
+header{
+    background-color: teal;
+}
+
+h1{
+    padding-bottom: 20%;
+}
+
+h2{
+    color: white;
+}
+
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 10rem;
+}
+
+.image{
+    width: 120%;
+}
+
+.logo-container{
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
+
+@media (min-width: 1100px){
+    #page-content{
+        max-width: 1100px;
+
+        display: grid;
+        /*definir espaços*/
+        grid-template-rows: 350px 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
+        /*definir nomes das areas*/
+        grid-template-areas: 
+            "logo hero hero"
+            "buttons buttons total"
+        ;
+    }
+    /*colocar coisas nas areas definidas*/
+    .logo-container{
+        grid-area: logo;
+        align-self: center;
+        text-align: left;
+        margin: 0;
+    }
+
+    .logo-container h2{
+        text-align: initial;
+        font-size: 3.6rem;
+    }
+
+    .logo-container img{
+        height: 100%;
+    }
+
+    .image{
+        grid-area: hero;
+        justify-self: end;
+    }
+    
+}
