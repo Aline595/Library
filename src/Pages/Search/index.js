@@ -10,7 +10,7 @@ function App() {
 
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
-  const apiKey = process.env.API_KEY_GOOGLE;
+  const apiKey = "AIzaSyD3x5-6W2oQ7d7_AyVxP4nek_6mme1Y5ic";
 
   function handleChange(e){
     const book = e.target.value;
