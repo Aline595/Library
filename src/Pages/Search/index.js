@@ -10,6 +10,7 @@ function App() {
       <Header/>
       <GitHubCorner projectUrl="https://github.com/Aline595/Library"/>
       <Input />
+      <Footer/>
     </>
   );
 }

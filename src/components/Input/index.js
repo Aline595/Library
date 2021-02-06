@@ -66,7 +66,7 @@ function Input(){
           </div>
         ))}
       </div>
-      <Footer/>
+
     </div>
   );
 }
