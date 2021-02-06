@@ -8,6 +8,20 @@ body{
     margin-top: 2%;
 }
 
+#description-button{
+    font-size: medium;
+    border-color: teal;
+    border-radius: 8px;
+    font: 700 2.0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
 .btn{
     margin-top: 2%;
     color:white;
@@ -15,10 +29,11 @@ body{
 }
 
 .image{
-    /*width: 50%;*/
     display: inline-block;
     margin-bottom: 15%;
     position: relative;
+    margin-left: -10%;
+
 }
 
 .infos{
@@ -62,7 +77,6 @@ body{
 
 .button-container a{
     width: 30rem;
-    height: 10.4rem;
     border-radius: 0.8rem;
     font: smaller;
     

@@ -17,7 +17,7 @@ function Input(){
     function handleSubmit(e){
       e.preventDefault();
       //console.log(book);
-      axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey + "&maxResults=40")
+      axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey)
       .then(data => {
         //console.log(data);
         //console.log(data.data.items);
