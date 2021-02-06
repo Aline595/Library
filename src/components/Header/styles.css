@@ -31,7 +31,7 @@ h2{
     
 }
 
-@media (min-width: 1100px){
+@media (min-width: 1000px){
     #page-content{
         max-width: 1100px;
 
