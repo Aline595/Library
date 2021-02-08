@@ -1,6 +1,3 @@
-# Library
-
-
 
 <h1 align="center">
  Library
